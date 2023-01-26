@@ -1,0 +1,27 @@
+
+{
+    "Information" : [
+        "This file provides default values for the deployment wizard inside Visual Studio and the AWS Lambda commands added to the .NET Core CLI.",
+        "To learn more about the Lambda commands with the .NET Core CLI execute the following command at the command line in the project root directory.",
+        "dotnet lambda help",
+        "All the command line options for the Lambda command can be specified in this file."
+    ],
+    "profile"     : "UsuarioPrueba",
+    "region"      : "us-east-1",
+    "configuration" : "Release",
+    "function-architecture" : "x86_64",
+    "function-runtime"      : "dotnet6",
+    "function-memory-size"  : 256,
+    "function-timeout"      : 30,
+    "function-handler"      : "AWSLambda1::AWSLambda1.Function::FunctionSaludo",
+    "framework"             : "net6.0",
+    "function-name"         : "FunctionSaludo",
+    "function-description"  : "Primera funcion desde vs",
+    "package-type"          : "Zip",
+    "function-role"         : "arn:aws:iam::189281213751:role/LambdaDesdeVisualStudio",
+    "function-subnets"      : "subnet-051ce69ab5a0f9ebe,subnet-04f3ef1784de1913e,subnet-05c07cecd38c0e4ee,subnet-027c0c9cbe9ec39bb,subnet-0383d4fb067909d85,subnet-0b8474a5a6e0b801b",
+    "function-security-groups" : "sg-0aebdf996c7ea6fa0",
+    "tracing-mode"             : "PassThrough",
+    "environment-variables"    : "",
+    "image-tag"                : ""
+}
